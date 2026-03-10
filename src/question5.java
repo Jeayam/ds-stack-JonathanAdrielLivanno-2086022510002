@@ -6,28 +6,20 @@ public class question5 {
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
-
-        System.out.println("Masukkan velocity:");
-
         int n = sc.nextInt();
 
         Stack<Integer> stack = new Stack<>();
 
-        stack.push(1);
+        int momentum = n;
+        stack.push(momentum);
 
-        while(stack.peek() < n){
-
-            int next = stack.peek() * 2;
-
-            if(next > n){
-                next = n;
-            }
-
-            stack.push(next);
+        while(momentum > 1){
+            momentum = momentum / 2;
+            stack.push(momentum);
         }
 
-        for(int value : stack){
-            System.out.print(value + " ");
+        while(!stack.isEmpty()){
+            System.out.print(stack.pop() + " ");
         }
 
         sc.close();
