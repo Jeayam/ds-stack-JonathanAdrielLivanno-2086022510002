@@ -4,7 +4,7 @@ How to Compile and Run
 <br>2.  Compile : javac filename.java, run : java filename
 <br>3. Example: javac BracketChecker.java, Run: java BracketChecker
 
-<br>i<br>nput format + example usage
+<br><br>- input format + example usage
 <br>Question 1 — Bracket Checker
 <br>Checks whether brackets in a string are balanced using a stack.
 <br>Input Format: User enters a string containing brackets.
@@ -36,51 +36,26 @@ How to Compile and Run
 <br>Input Format:First line: number of elements, Second line: list of integers
 
 <br>Example:
+<br>7
+<br>42 9 17 63 28 5 74
+<br>Example Output
+<br>5 9 17 28 42 63 74
 
-7
-42 9 17 63 28 5 74
-Example Output
-5 9 17 28 42 63 74
-Question 5 — Operation Chastise
+<br><br>Question 5 — Operation Chastise
+<br>Simulates bomb momentum bounces until reaching the target velocity.
+<br>Input Format: Single integer representing velocity.
+<br>Example:
+<br>50
+<br>Example Output: 1 2 4 8 16 32 50
 
-Simulates bomb momentum bounces until reaching the target velocity.
+<br><br>- Assumptions and Edge Cases
+<br>Question 1: Empty string is considered balanced, Input containing non-bracket characters is ignored.
 
-Input Format
+<br><br>Question 2: Division assumes integer division, Invalid expressions (not enough operands) will produce an error.
 
-Single integer representing velocity.
+<br><br>Question 3: Stack errors occur if d is used on an empty stack. requires at least two elements in the stack.
 
-Example:
+<br><br>Question 4: Input numbers can be any integer, Duplicate numbers are allowed.
 
-50
-Example Output
-1 2 4 8 16 32 50
-Assumptions and Edge Cases
-Question 1
-
-Empty string is considered balanced.
-
-Input containing non-bracket characters is ignored.
-
-Question 2
-
-Division assumes integer division.
-
-Invalid expressions (not enough operands) will produce an error.
-
-Question 3
-
-Stack errors occur if d is used on an empty stack.
-
-+ requires at least two elements in the stack.
-
-Question 4
-
-Input numbers can be any integer.
-
-Duplicate numbers are allowed.
-
-Question 5
-
-Velocity must be greater than 0.
-
-If the next bounce exceeds the velocity, it is capped at the target value.
+<br><br>Question 5: Velocity must be greater than 0, If the next bounce exceeds the velocity, it is capped at the target value.
+<br><br>chatgpt
