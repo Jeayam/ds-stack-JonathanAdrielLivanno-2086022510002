@@ -58,7 +58,6 @@ How to Compile and Run
 <br>5 6 3 2
 
 <br>Example Output:
-<br>BANANA
 <br>1d+1+d+d+1d+1+d+d+1d+d+d+1+1d+d+1d+
 
 
