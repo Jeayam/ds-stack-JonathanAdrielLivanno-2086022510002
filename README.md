@@ -8,7 +8,6 @@ How to Compile and Run
 <br>Question 1 — Bracket Checker
 <br>Checks whether brackets in a string are balanced using a stack.
 <br>Input Format: User enters a string containing brackets.
-
 <br>Example:
 <br>Masukkan bracket:
 <br>{[()]}
@@ -34,7 +33,6 @@ How to Compile and Run
 <br><br>Question 4 — Cheat Buster Security System
 <br>Processes numbers using a stack mechanism and outputs them in ascending order.
 <br>Input Format:First line: number of elements, Second line: list of integers
-
 <br>Example:
 <br>7
 <br>42 9 17 63 28 5 74
@@ -58,4 +56,4 @@ How to Compile and Run
 <br><br>Question 4: Input numbers can be any integer, Duplicate numbers are allowed.
 
 <br><br>Question 5: Velocity must be greater than 0, If the next bounce exceeds the velocity, it is capped at the target value.
-<br><br>chatgpt
+<br><br>~chatgpt
