@@ -84,10 +84,10 @@ How to Compile and Run
 <br>Single integer representing velocity.
 
 <br>Example Input:
-<br>50
+<br>75
 
 <br>Example Output:
-<br>1 2 4 8 16 32 50
+<br>1 2 4 9 18 37 75
 
 
 <br><br>Assumptions and Edge Cases
